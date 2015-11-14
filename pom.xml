@@ -136,7 +136,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>sk.apps.DrlParser</mainClass>
+                            <mainClass>sk.apps.DrlParsing</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

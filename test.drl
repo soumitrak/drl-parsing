@@ -1,0 +1,16 @@
+package sk.rule.ruleset.r1;
+
+import sk.event.Event;
+
+// Event declaration
+declare Event
+	@role(event)
+	@timestamp(time)
+end
+
+rule "Long LHS"
+when
+	$event : Event (has ("name", "foo"))
+then
+	// Empty
+end

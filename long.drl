@@ -10,7 +10,7 @@ end
 
 rule "Long LHS"
 when
-	$event : Event ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( (contains ("name", "foo") && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) && contains ("name", "foo")) )
+	$event : Event ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( (has ("name", "foo") && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) && has ("name", "foo")) )
 then
 	// Empty
 end

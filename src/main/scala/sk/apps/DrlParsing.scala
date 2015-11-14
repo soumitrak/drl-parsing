@@ -10,7 +10,7 @@ import org.kie.internal.builder.KnowledgeBuilderFactory
 
 object DrlParsing extends LazyLogging {
   def main (args: Array [String]): Unit = {
-    logger.info (s"Starting KnowledgeBuilder")
+    logger.info ("Starting KnowledgeBuilder")
     val kbuilder = KnowledgeBuilderFactory.newKnowledgeBuilder ()
     args.foreach { fileName =>
       logger.info (s"Adding file $fileName")
@@ -18,5 +18,6 @@ object DrlParsing extends LazyLogging {
     }
     if (kbuilder.hasErrors ())
       logger.error (kbuilder.getErrors ().toString ())
+    logger.info ("Done parsing DRL file(s).")
   }
 }
